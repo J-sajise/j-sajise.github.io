@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joshua's Portfolio Dashboard</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Joshua Sajise</h1>
+    <nav>
+      <a href="#">Currently</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <a href="#" onclick="showPage('Home')">Home</a>
+      <a href="#" onclick="showPage('About')">About Me</a>
+      <a href="#" onclick="showPage('Resume')">Resume</a>
+      <a href="#" onclick="showPage('Projects')">Projects</a>
+      <a href="#" onclick="showPage('Contact')">Contact</a>
+    </aside>
+
+    <main class="main">
+      <div id="Home" class="page active">
+        <div class="card">
+            <h2>Welcome to My Website</h2>
+            <p>This website is my very first individual project aimed to compile information about me.</p>
+        </div>
+        <div class="card">
+            <p> I move forward, not to escape the storm but to meet the calm within it. </p>
+
+        </div>
+      </div>
+
+      <div id="About" class="page">
+        <div class="card">
+            <h2> Who is Joshua?</h2>
+            </div>
+        <div class="card">
+            <p></p>
+            <ul>
+                <li>🎨 Former Project Manager of an Arts Fair.</li>
+                <li>💁‍♂️ Former SAIT volunteer.</li>
+                <li>🏅 Former Valorant Esports Athlete in SAIT.</li>
+                <li>💡 Currently Passionate about Coding.</li>
+            </ul>
+        </div>
+      </div>
+
+      <div id="Resume" class="page card">
+        <h2>Resume</h2>
+        <p> Here is my background in education, experience, and certifications.</p>
+      </div>
+
+      <div id="Projects" class="page card">
+        <h2>Recent Projects</h2>
+        <ul>
+          <li href="#"> 🌐 Static Backup Website : "Student Solutions"</li>
+          <li href="#"> 🌐 Website About Me: "Who am I?"</li>
+        </ul>
+      </div>
+
+      <div id="Contact" class="page card">
+        <h2>Contact Me By</h2>
+        <p>Email: jsh.sajise@gmail.com</p>
+        <p2>Cellphone: (825) 889-7892</p2>
+      </div>
+    </main>
+  </div>
+  <script src = "MyWebJs.js"></script>
+</body>
+</html>
+
